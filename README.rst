@@ -11,6 +11,8 @@ full guide for psql cluster: https://habrahabr.ru/post/322036/
 TODO:
 
   * haproxy,keepalived,postgres dependencies metadata
+
+  * haproxy,keepalived,postgres jinja templating , defining vars
  
   * haproxy,keepalived,postgres dependencies check if installed
 
