@@ -1,0 +1,15 @@
+{%- set server = salt['grains.filter_by']({
+    'Debian': {
+        'patroni_deps': ['sudo', python, python-pip, git],
+        'pip_patroni_deps': ['sudo', python-etcd, dnspython, boto, mock, psycopg2, PyYAML, requests, six, kazoo, psutil, python-dateutil],
+        'git_patroni_url': 'https://github.com/zalando/patroni.git',
+        'git_patroni_branch': 'master',
+        'git_patroni_dest': '/opt/patroni',
+        'psql_source': '/var/lib/postgresql',
+        'dir': {
+          'config': '/etc/patroni/',
+          'psql_source': '/var/lib/postgresql',
+          'data': '/var/lib/pgsql/data'
+        },
+    },
+}, merge=salt['pillar.get']('patroni:server')) %}

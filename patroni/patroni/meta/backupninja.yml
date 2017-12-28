@@ -1,0 +1,5 @@
+backup:
+  postgresql:
+    fs_includes:
+    - /var/backups/postgresql
+    fs_excludes: []

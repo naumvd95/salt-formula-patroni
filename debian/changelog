@@ -1,0 +1,17 @@
+salt-formula-postgresql (2017.4) trusty; urgency=medium
+
+  * New version
+
+ -- Filip Pytloun <filip.pytloun@tcpcloud.eu>  Wed, 26 Apr 2017 10:35:16 +0200
+
+salt-formula-postgresql (0.2) trusty; urgency=medium
+
+  * First public release
+
+ -- Filip Pytloun <filip.pytloun@tcpcloud.eu>  Tue, 06 Oct 2015 16:38:51 +0200
+
+salt-formula-postgresql (0.1) trusty; urgency=medium
+
+  * Initial release
+
+ -- Ales Komarek <ales.komarek@tcpcloud.eu>  Thu, 13 Aug 2015 23:23:41 +0200
